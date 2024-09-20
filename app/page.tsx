@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
+
 "use client";
 
 import axios from "axios";
@@ -15,13 +17,11 @@ export default function Home() {
       const response = await axios.get(
         `${process.env.NEXT_PUBLIC_STRAPI_API_URL}/about-page?populate=*`
       );
-      let data = response?.data?.data;
-      console.log(data);
+      const data = response?.data?.data;
 
       setData(data);
     } catch (error) {
       console.error("Error fetching data:", error);
-      let errorMessage = "Failed to load data. Please try again later.";
     }
   };
 
