@@ -41,7 +41,7 @@ export default function Home() {
         </h3>
       </div>
 
-      <div className="flex justify-between items-center w-full flex-wrap md:w-11/12  mx-auto my-10">
+      <div className="flex justify-center md:justify-between items-center w-full flex-wrap md:w-11/12  mx-auto my-10">
         <div className=" flex flex-wrap">
           <div className="bg-red-500/50 w-[400px] h-[400px] rounded-full flex p-4 justify-center gap-2 flex-col z-50">
             <h3 className="font-bold text-white">
@@ -80,10 +80,11 @@ export default function Home() {
         </div>
       </div>
 
-      <p className="text-white">
+      <p className="text-black text-center">
         My name is Sourav <br />
-        Email: souravkumardubey2898@gmail.com Contact: 7992401159 Location:
-        Noida
+        Email: souravkumardubey2898@gmail.com <br />
+        Contact: 7992401159 <br />
+        Location: Noida
       </p>
     </main>
   );
