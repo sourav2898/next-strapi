@@ -79,6 +79,12 @@ export default function Home() {
           ))}
         </div>
       </div>
+
+      <p className="text-white">
+        My name is Sourav <br />
+        Email: souravkumardubey2898@gmail.com Contact: 7992401159 Location:
+        Noida
+      </p>
     </main>
   );
 }
